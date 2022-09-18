@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form Application</title>
+    <!-- Bootstrap -->
+    <script crossorigin="anonymous" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Favicons -->
+    <link href="https://img.icons8.com/parakeet/48/000000/experimental-internet-parakeet.png" rel="icon"
+        type="image/png">
+    <!-- Google Fonts -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery -->
+    <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1>💻 Student Registration Form 💻</h1>
+        </div>
+        <div class="form">
+            <form id="form">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input id="name" type="text" placeholder="Enter Your Name..." />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input id="email" type="email"  placeholder="Enter Your E-mail..."/>
+                </div>
+                <div class="form-group">
+                    <label>College Name</label>
+                    <input id="collegeName" type="text"  placeholder="Enter Your College Name..."/>
+                </div>
+                <div class="form-group">
+                    <label>
+                     <h4>Image</h4>
+                    </label>
+                    <input disabled placeholder="Random Image Has Been Selected"  />
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <input id="male" name="gender" type="radio" value="Male"/>
+                    Male
+                    <input id="female" name="gender" type="radio" value="Female" />
+                    Female
+                </div>
+                <div class="form-group">
+                    <label>Skills</label>
+                    <input id="html" name="skills" type="checkbox" value="HTML"/>
+                    HTML
+                    <input id="css" name="skills" type="checkbox" value="CSS" />
+                    CSS
+                    <input id="js" name="skills" type="checkbox" value="JavaScript" />
+                    JavaScript
+                </div>
+                <div class="form-group">
+                    <button id="submit">Enroll Student</button>
+                    <button>Cancel</button>
+                </div>
+            </form>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="header">
+            <h1>📝 Enrolled Students 🧑‍🎓</h1>
+        </div>
+    
+        <div class="record">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

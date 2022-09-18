@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: #F5EDDC;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header {
+  background-color: #FA9494;
+  border: solid 2px black;
+  margin-bottom: 10px ;
+
+  }
+
+
+  button {
+    background-color: #96CEB4;
+    border: solid 2px black;
+    color: black;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin: 12px;
+    padding: 16px;
+    text-align: center;
+    width: 50%;
+  }
+
+button:hover {
+  background-color: #F5EDDC;
+}
+
+  h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 12px;
+    padding: 12px;
+  }
+  .header {
+    padding: 24px;
+    text-align: center;
+  }
+  .form {
+    background-color: 	#d5fa9f;
+    border: solid 2px black;
+    padding: 24px;
+  }
+  .form-group {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .form-group input {
+    border: solid 2px black;
+    padding: 12px;
+    width: 50%;
+  }
+  .form-group label {
+    font-size: larger;
+    font-weight: bold;
+  }
+  .record .student-card {
+    background-color: 	#ffdebb;
+    border: solid 2px black;
+    padding:0 60px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
